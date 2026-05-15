@@ -1,0 +1,10 @@
+@import url(menu.css);
+@import url(home.css);
+@import url(header.css);
+
+* {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
