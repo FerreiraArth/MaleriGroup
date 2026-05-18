@@ -2,6 +2,17 @@
 @import url(home.css);
 @import url(header.css);
 
+:root {
+    --primary-azul-escuro: #061326;
+    --secondary-azul-petroleo: #0B1F3A;
+    --laranja-destaque: #FF7A1A;
+    --laranja-hover: #FF9A3D;
+    --branco-principal: #FFFFFF;
+    --cinza-claro: #F5F7FA;
+    --cinza-secundario: #A7B0BE;
+    --preto-suave: #0A0A0A;
+}
+
 * {
     font-family: "poppins", sans-serif;
     margin: 0;
