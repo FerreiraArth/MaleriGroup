@@ -3,7 +3,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: #a07eff;
+    background-color: var(--primary-azul-escuro);
     z-index: 3;
 }
 
