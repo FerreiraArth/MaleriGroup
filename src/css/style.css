@@ -29,3 +29,12 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+.btn-default {
+    color: var(--branco-principal);
+    padding: 10px 25px;
+    border: 2px solid var(--laranja-destaque);
+    background-color: var(--laranja-destaque);
+    border-radius: 4px;
+    font-size: large;
+}
