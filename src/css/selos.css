@@ -1,6 +1,6 @@
-.selos {
+#selos {
     display: flex;
 }
-.selos p {
-    background-color: var(  --laranja-destaque);
+#selos{
+    background-color: var(--laranja-destaque);
 }
