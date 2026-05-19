@@ -11,12 +11,12 @@
 #cte {
     width: 50%;
 }
-h1 {
+#cte h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-p{
+#cte p{
     font-size: 2rem;
 }
 
