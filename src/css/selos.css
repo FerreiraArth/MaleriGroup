@@ -1,0 +1,6 @@
+.selos {
+    display: flex;
+}
+.selos p {
+    background-color: var(  --laranja-destaque);
+}
