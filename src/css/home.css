@@ -1,15 +1,23 @@
 #home {
     display: flex;
     position: relative;
-    flex-direction: column;
     min-height: calc(100vh - 91px);
     background-image: url(../images/background-main.png);
     background-size: cover;
     background-position: center;
+    align-items: center;
 }
 
-#home aside {
+#cte {
     width: 50%;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+p{
+    font-size: 2rem;
 }
 
 #cte button {
@@ -20,7 +28,6 @@
     margin: 25px;
     font-size: large;
 }
-
 .b2 {
     background-color: transparent;
 }
@@ -30,19 +37,7 @@
 
 .selos {
     display: flex;
-    height: 100vh;
-    width: calc(100vw - 91px);
-    gap: 32px;
 }
 .selos p {
     background-color: var(  --laranja-destaque);
-}
-h1 {
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 16px;
-}
-
-p{
-    font-size: 2rem;
 }
