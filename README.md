@@ -1,36 +1,95 @@
-sobre o site:
+# MALERI — Manutenção Industrial
 
-estou pensando em criar uma seção "sobre nós" com algo como:
+Site institucional desenvolvido para a **Maleri Manutenção Industrial**, empresa especializada em soluções industriais com foco em manutenção elétrica, mecânica, automação e soldagem industrial.
 
-A MALERI é uma empresa voltada para soluções industriais, atuando em duas frentes principais: manutenção elétrica e automação, e usinagem com fabricação de peças técnicas.
-Na área elétrica, trabalhamos com diagnóstico e correção de falhas em motores, sistemas de comando e potência.
-Já na usinagem, realizamos a fabricação e recuperação de componentes sob medida, atendendo demandas específicas da indústria.
-Essa estrutura permite à MALERI oferecer soluções completas, com mais agilidade, controle de qualidade e independência na execução dos serviços.
+![Preview do Projeto](./assets/img/preview.png)
 
-outra seção com "O que Fazemos" com algo como:
-🔹 Manutenção elétrica e automação
-- Motores elétricos
-- Sistemas de comando e potência
-- Diagnóstico e correção de falhas
-- Atendimento técnico
-🔹 Usinagem e fabricação de peças
-- Fabricação sob medida
-- Recuperação de componentes
-- Produção de peças técnicas
-- Adaptação de peças fora de linha
+---
 
-uma seção como:
-Por que escolher a MALERI?
-- Diagnóstico técnico preciso
-- Execução direta (sem enrolação)
-- Estrutura própria de usinagem
-- Mais agilidade e menos parada de máquina
+## 🚀 Sobre o Projeto
 
-acredito que é interessante essa home que rola com os tópicos:
+O objetivo deste projeto é apresentar a empresa de forma moderna, profissional e responsiva, destacando:
 
-1 Apresentação - sobre nós
-2 Divisão elétrica
-3 Divisão usinagem
-4 Diferenciais
-4 Sobre resumido
-5 Contato
+- Serviços oferecidos
+- Diferenciais técnicos
+- Projetos executados
+- Estrutura organizacional
+- Contato comercial
+
+O layout foi desenvolvido com identidade visual industrial, utilizando cores escuras com detalhes em laranja para transmitir tecnologia, segurança e confiabilidade.
+
+---
+
+## 🏗️ Áreas de Atuação
+
+- Manutenção Elétrica Industrial
+- Manutenção Mecânica
+- Automação Industrial
+- Soldagem Industrial
+- Usinagem e Fabricação
+- Laudos Técnicos
+- Projetos Industriais
+
+---
+
+## 🎨 Paleta de Cores
+
+| Cor | Código |
+|------|------|
+| Azul Escuro | `#061326` |
+| Azul Secundário | `#0B1F3A` |
+| Laranja Principal | `#FF7A1A` |
+| Laranja Hover | `#FF9A3D` |
+| Branco | `#FFFFFF` |
+| Cinza Claro | `#F5F7FA` |
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsividade Mobile
+- Flexbox
+- Grid Layout
+
+---
+
+## 📱 Responsividade
+
+O site foi desenvolvido para funcionar em:
+
+- Desktop
+- Tablets
+- Smartphones
+
+---
+
+## 📂 Estrutura de Pastas
+
+```bash
+📦 maleri-site
+ ┣ 📂 assets
+ ┃ ┣ 📂 img
+ ┃ ┣ 📂 icons
+ ┃ ┗ 📂 css
+ ┣ 📜 index.html
+ ┣ 📜 style.css
+ ┣ 📜 script.js
+ ┗ 📜 README.md
+
+📞 Contato
+
+Maleri — Manutenção Industrial
+
+📍 João Monlevade — MG
+📧 contato@maleri.com.br
+
+👨‍💻 Desenvolvedor
+
+Projeto desenvolvido por Arthur Ferreira.
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
