@@ -1,6 +1,18 @@
 #selos {
     display: flex;
+    background-color: var(--primary-azul-escuro);
+    color: var(--laranja-destaque);
 }
-#selos{
-    background-color: var(--laranja-destaque);
+
+.selo {
+    display: flex;
+    align-items: center;
+    margin: 10;
+    justify-content: space-around;
+    padding: 15px 45px;
+}
+i {
+    font-size: 50px;
+    color: var(--laranja-destaque);
+    margin-right: 20px;
 }
