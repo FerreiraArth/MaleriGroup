@@ -3,13 +3,13 @@
     flex-direction: column;
     justify-content: space-between;
     height: 50vh;
-    background-color: var(--branco-principal);
+    background-color: var(--cinza-claro);
     color: var(--primary-azul-escuro);
 }
-#services h1 {
+.services-header h1 {
     color: var(--primary-azul-escuro);
 }
-#services h3 {
+.services-header h3 {
     color: var(--laranja-destaque);
 }
 
