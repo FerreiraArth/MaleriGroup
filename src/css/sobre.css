@@ -8,7 +8,14 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--primary-azul-escuro);
+    width: 30%;
+}
+#meio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
+    padding: 30px;
 }
 #esquerdo {
     background: url("../images/aside.png");
