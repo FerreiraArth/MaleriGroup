@@ -1,0 +1,15 @@
+#empresas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0;
+    width: 100vw;
+}
+#empresas-logos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
