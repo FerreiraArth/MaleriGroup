@@ -2,6 +2,7 @@
 @import url(home.css);
 @import url(header.css);
 @import url(selos.css);
+@import url(sobre.css);
 
 :root {
     --primary-azul-escuro: #061326;

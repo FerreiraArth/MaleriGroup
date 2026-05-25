@@ -12,6 +12,9 @@
 .services-header h3 {
     color: var(--laranja-destaque);
 }
+.services-header p {
+    color: var(--primary-azul-escuro);
+}
 
 #quadro {
     width: 100%;
