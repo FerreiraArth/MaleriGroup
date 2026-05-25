@@ -3,13 +3,6 @@
     height: 50vh;
 }
 
-#direito {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: var(--primary-azul-escuro);
-    width: 30%;
-}
 #meio {
     display: flex;
     flex-direction: column;
@@ -24,4 +17,11 @@
     height: 100%;
     width: 50%;
     background-size: cover;
+}
+#direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-azul-escuro);
+    width: 30%;
 }
