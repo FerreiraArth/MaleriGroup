@@ -9,7 +9,7 @@
 }
 
 #cte {
-    width: 50%;
+    width: 40%;
 }
 #cte h1 {
     font-size: 48px;
@@ -17,7 +17,7 @@
     margin-bottom: 16px;
 }
 #cte p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 #cte button {
     color: var(--branco-principal);
