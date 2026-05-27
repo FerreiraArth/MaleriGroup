@@ -13,11 +13,6 @@
     gap: 20px;
 }
 
-/* #galery img {
-    height: 200px;
-    width: 200px;
-} */
-
 .foto {
     display: flex;
     flex-direction: column;

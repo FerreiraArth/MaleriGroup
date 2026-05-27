@@ -19,7 +19,7 @@
 #cte p{
     font-size: 1.5rem;
 }
-#cte button {
+#cte a {
     color: var(--branco-principal);
     padding: 10px 25px;
     border: 2px solid var(--laranja-destaque);
