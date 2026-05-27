@@ -12,6 +12,7 @@
 }
 #esquerdo {
     background: url("../images/aside.png");
+    background-position: center;
     color: var(--branco-principal);
     padding: 20px;
     height: 100%;
