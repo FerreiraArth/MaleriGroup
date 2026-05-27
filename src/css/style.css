@@ -43,3 +43,9 @@ a {
     border-radius: 4px;
     font-size: large;
 }
+
+@media (max-width: 1170px) {
+    i {
+        font-size: 2rem;
+    }
+}
