@@ -24,7 +24,6 @@
     flex-direction: column;
     justify-content: center;
     background-color: var(--primary-azul-escuro);
-    width: 30%;
 }
 
 @media (max-width: 1170px) {
@@ -48,8 +47,7 @@
     }
     #direito {
         width: 50%;
-        height: auto;
-        padding: 0;
+        font-size: 0.8rem;
     }
     #esquerdo {
         display: none;

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     background-color: var(--cinza-claro);
-    height: 70vh;
+    height: auto;
 }
 
 #galery {

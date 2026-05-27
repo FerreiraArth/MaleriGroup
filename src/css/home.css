@@ -59,4 +59,7 @@
     #cte {
         width: 100%;
     }
+    #cte h1 {
+        font-size: 1.75rem;
+    }
 }
