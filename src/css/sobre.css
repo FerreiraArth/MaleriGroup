@@ -26,3 +26,32 @@
     background-color: var(--primary-azul-escuro);
     width: 30%;
 }
+
+@media (max-width: 1170px) {
+    #sobre {
+        height: auto;
+    }
+    #meio {
+        width: 100%;
+        padding: 20px 10px;
+        
+    }
+    #meio h1 {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+    #meio h3 {
+        font-size: 0.75rem;
+    }
+    #meio p {
+        font-size: 1rem;
+    }
+    #direito {
+        width: 50%;
+        height: auto;
+        padding: 0;
+    }
+    #esquerdo {
+        display: none;
+    }
+}

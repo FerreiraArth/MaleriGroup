@@ -72,7 +72,6 @@
 @media (max-width: 1170px) {
     #services {
         height: fit-content;
-        padding: 28px 8%;
     }
     #quadro {
         display: none;
