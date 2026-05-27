@@ -30,3 +30,24 @@
     color: var(--secondary-azul-petroleo);
     font-size: 1rem;
 }
+
+@media (max-width: 750px) {
+    #galery {
+        display:block;
+        columns: 2;
+        
+    }
+    .foto {
+        gap: 10px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 25px;
+        
+    }
+    .foto p {
+        font-size: 0.6rem;
+    }
+    img {
+        width: 100%;
+    }
+}
