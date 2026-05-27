@@ -5,12 +5,25 @@
     align-items: center;
     gap: 20px;
     padding: 40px 0;
-    height: 40vh;
+    height: auto;
 }
 #empresas-logos {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 30px;
     width: 80%;
     border: 1px solid var(--laranja-destaque);
+}
+
+@media (max-width: 1170px) {
+    #empresas-logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    #empresas-logos img {
+        
+    }
+
 }
