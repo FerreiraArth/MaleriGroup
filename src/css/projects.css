@@ -1,5 +1,9 @@
 #projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: var(--cinza-claro);
+    height: 70vh;
 }
 
 #galery {
@@ -9,14 +13,24 @@
     gap: 20px;
 }
 
-#galery img {
+/* #galery img {
     height: 200px;
     width: 200px;
-}
+} */
 
 .foto {
-    background-color: var(--cinza-secundario);
-    
-    width: 250px;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    background-color: var(--branco-principal);
+    border: 1px solid var(--secondary-azul-petroleo);
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.foto p {
+    color: var(--secondary-azul-petroleo);
+    font-size: 1rem;
 }
