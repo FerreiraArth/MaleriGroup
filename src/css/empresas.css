@@ -3,12 +3,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     gap: 20px;
     padding: 40px 0;
+    height: 40vh;
 }
 #empresas-logos {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
     width: 80%;
+    border: 1px solid var(--laranja-destaque);
 }
