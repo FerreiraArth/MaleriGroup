@@ -27,12 +27,36 @@
     padding: 10px 25px;
     border: 2px solid var(--laranja-destaque);
     border-radius: 4px;
-    margin: 25px;
     font-size: large;
+    width: fit-content;
 }
+
+#cte-btns {
+        display: flex;
+        justify-content: space-around;
+    }
 .b2 {
     background-color: transparent;
 }
 .b1 {
     background-color: var(--laranja-destaque);
+}
+
+@media (max-width: 1680px) {
+    #cte {
+        width: 50%;
+    }
+    #cte-btns {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+@media (max-width: 1170px) {
+    #home {
+        background: var(--primary-azul-escuro);
+    }
+    #cte {
+        width: 100%;
+    }
 }
