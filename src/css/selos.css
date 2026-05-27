@@ -1,7 +1,6 @@
 #selos {
     display: flex;
     background-color: var(--primary-azul-escuro);
-    color: var(--laranja-destaque);
 }
 
 .selo {
