@@ -11,6 +11,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    columns: 2;
 }
 
 .foto {
