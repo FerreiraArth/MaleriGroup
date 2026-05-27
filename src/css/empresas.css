@@ -6,7 +6,6 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 40px 0;
-    width: 100vw;
 }
 #empresas-logos {
     display: flex;
