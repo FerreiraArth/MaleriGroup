@@ -14,14 +14,12 @@ header {
 }
 
 #nav-logo {
+    font-size: 24px;
     display: flex;
     align-items: center;
+    color: var(--branco-principal);
     gap: 8px;
     font-weight: bold;
-}
-#nav-logo p {
-    font-size: 1.5rem;
-    color: var(--branco-principal);
 }
 
 
@@ -33,17 +31,11 @@ header {
 .nav-item a {
     text-decoration: none;
     color: var(--branco-principal);
-    font-size: 16px;
     font-weight: 600;
 }
-.nav-item a:hover {
-    transition: 0.5s;
-    color: var(--laranja-destaque);
+.nav-item.active {
+    border-bottom: 3px solid var(--laranja-destaque);
 
-}
-.nav-item.active a {
-    color: var(--color-neutro-1);
-    border-bottom: 3px solid #1d1d1dad;
 }
 
 #mobile-btn {

@@ -22,7 +22,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--branco-principal);
     scroll-behavior: smooth;
 }
 
@@ -37,15 +36,18 @@ a {
 }
 
 .btn-default {
-    padding: 10px 25px;
-    border: 2px solid var(--laranja-destaque);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border: 1px solid var(--laranja-destaque);
     background-color: var(--laranja-destaque);
     border-radius: 4px;
-    font-size: large;
+    font-weight: 600;
+    color: var(--branco-principal);
+    transition: 0.3s;
 }
-
-@media (max-width: 1170px) {
-    i {
-        font-size: 2rem;
-    }
+.btn-default:hover {
+    background-color: var(--laranja-hover);
+    border-color: var(--laranja-hover);
 }
