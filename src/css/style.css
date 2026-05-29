@@ -51,3 +51,12 @@ a {
     background-color: var(--laranja-hover);
     border-color: var(--laranja-hover);
 }
+
+.title {
+    color: var(--laranja-destaque);
+    font-size: 1rem;
+}
+.subtitle {
+    color: var(--primary-azul-escuro);
+    font-size: 2rem;
+}

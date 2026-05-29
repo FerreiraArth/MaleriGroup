@@ -1,6 +1,7 @@
 #selos {
     display: flex;
     background-color: var(--primary-azul-escuro);
+    color: var(--branco-principal);
 }
 
 .selo {
