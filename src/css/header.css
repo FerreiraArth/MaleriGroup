@@ -51,7 +51,7 @@ header {
         position: sticky;
         top: 0;
         background-color: var(--primary-azul-escuro);
-        padding: 16px 8%;
+        padding: 10px;
     }
     #nav-list,
     #navbar .btn-default {
@@ -62,8 +62,10 @@ header {
         display: block;
         border: none;
         background-color: transparent;
+        color: var(--laranja-destaque);
         font-size: 1.5rem;
         cursor: pointer
+
     }
 
     #mobile-menu.active{
