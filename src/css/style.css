@@ -60,3 +60,7 @@ a {
     color: var(--primary-azul-escuro);
     font-size: 2rem;
 }
+i {
+    font-size: 40px;
+    color: var(--laranja-destaque);
+}
