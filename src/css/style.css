@@ -64,3 +64,9 @@ i {
     font-size: 40px;
     color: var(--laranja-destaque);
 }
+.selo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
