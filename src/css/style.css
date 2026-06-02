@@ -5,6 +5,7 @@
 @import url(sobre.css);
 @import url(projects.css);
 @import url(empresas.css);
+@import url(footer.css);
 
 :root {
     --primary-azul-escuro: #061326;

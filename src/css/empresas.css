@@ -2,28 +2,39 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     align-items: center;
+    gap: 30px;
+    background-color: var(--primary-azul-escuro);
     color: var(--branco-principal);
-    height: 40vh;
-
+    height: auto;
+}
+#empresas h1 {
+    font-size: 1.5rem;
 }
 #empresas-logos {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 50px;
 }
 
 @media (max-width: 850px) {
     #empresas {
-        padding: 10px 0;
+        height: auto;
+        padding: 10px;
+        padding-top: 20px;
     }
     #empresas-logos {
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
-    
+    #empresas-logos img {
+        width: 100px;
+        display:flex;
+    }
     #empresas h1 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
