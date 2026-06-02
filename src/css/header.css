@@ -2,7 +2,8 @@ header {
     width: 100%;
     padding: 28px ;
     position: fixed;
-    background-color: transparent;
+    background-color: var(--cinza-secundario);
+    backdrop-filter: blur(25px);
     z-index: 3;
 }
 
