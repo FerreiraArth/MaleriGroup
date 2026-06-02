@@ -31,21 +31,6 @@
     #esquerdo {
         display: none;
     }
-    /* #sobre {
-        height: auto;
-    }
-    #meio {
-        width: 100%;
-        padding: 20px 10px;
-        
-    }
-    #meio p {
-        font-size: 1rem;
-    }
-    #direito {
-        width: 50%;
-        font-size: 0.8rem;
-    } */
 }
 @media (max-width: 700px) {
     #direito {
