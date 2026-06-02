@@ -22,7 +22,7 @@
     height: 300px;
     width: 250px;
     padding: 40px;
-    gap: 30px;
+    gap: 20px;
     background-color: var(--branco-principal);
     border: 1px solid var(--secondary-azul-petroleo);
     border-radius: 8px;
