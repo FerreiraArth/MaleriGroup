@@ -1,5 +1,6 @@
 #sobre {
     display: flex;
+    justify-content: center;
     height: 50vh;
 }
 
@@ -14,20 +15,23 @@
     background: url("../images/aside.png");
     background-position: center;
     color: var(--branco-principal);
-    padding: 20px;
-    height: 100%;
     width: 50%;
     background-size: cover;
 }
 #direito {
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: var(--primary-azul-escuro);
+    color: var(--branco-principal);
 }
 
 @media (max-width: 1170px) {
-    #sobre {
+    #esquerdo {
+        display: none;
+    }
+    /* #sobre {
         height: auto;
     }
     #meio {
@@ -35,21 +39,22 @@
         padding: 20px 10px;
         
     }
-    #meio h1 {
-        font-size: 1.25rem;
-        margin-bottom: 10px;
-    }
-    #meio h3 {
-        font-size: 0.75rem;
-    }
     #meio p {
         font-size: 1rem;
     }
     #direito {
         width: 50%;
         font-size: 0.8rem;
-    }
-    #esquerdo {
+    } */
+}
+@media (max-width: 700px) {
+    #direito {
         display: none;
+    }
+    #meio {
+        width: 90%;
+    }
+    #meio h1 {
+        font-size: 1.25rem;
     }
 }

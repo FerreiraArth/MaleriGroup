@@ -47,7 +47,7 @@
     border-radius: 8px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
-ul li::marker {
+#services-footer ul li::marker {
   content: "✔ ";
   color: var(--laranja-destaque);
   font-size: 1.2rem;
