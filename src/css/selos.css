@@ -4,7 +4,6 @@
     color: var(--branco-principal);
 }
 
-
 @media (max-width: 1550px) {
     #selos {
         display: none;

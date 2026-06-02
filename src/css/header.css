@@ -34,10 +34,6 @@ header {
     color: var(--branco-principal);
     font-weight: 600;
 }
-.nav-item.active {
-    border-bottom: 3px solid var(--laranja-destaque);
-
-}
 
 #mobile-btn {
   display: none;
@@ -65,10 +61,9 @@ header {
         background-color: transparent;
         color: var(--laranja-destaque);
         font-size: 1.5rem;
-        cursor: pointer
-
+        cursor: pointer;
     }
-
+    
     #mobile-menu.active{
         display: flex;
         flex-direction: column;
