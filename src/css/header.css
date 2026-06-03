@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    padding: 28px ;
+    padding: 20px ;
     position: fixed;
     background-color: var(--cinza-secundario);
     backdrop-filter: blur(25px);
@@ -83,5 +83,14 @@ header {
     }
     #nav-logo p {
         font-size: 1rem;
+    }
+}
+
+@media (max-height: 740px) {
+    header {
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        background-color: var(--primary-azul-escuro);
     }
 }

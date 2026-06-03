@@ -2,7 +2,7 @@
     display: flex;
     position: relative;
     min-height: calc(100vh - 91px);
-    background-image: url(../images/background-main.png);
+    background-image: url(../images/background-main2.png);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -38,5 +38,10 @@
 @media (max-width: 480px) {
     .cta-title {
         font-size: 25px;
+    }
+}
+@media (max-height: 400px) {
+    .cta-title {
+        font-size: 20px;
     }
 }
