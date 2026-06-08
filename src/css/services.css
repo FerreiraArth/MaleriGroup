@@ -20,7 +20,7 @@
     align-items: center;
     text-align: center;
     height: 300px;
-    width: 250px;
+    width: 50%;
     padding: 40px;
     gap: 20px;
     background-color: var(--branco-principal);
@@ -53,13 +53,13 @@
   font-size: 1.2rem;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 900px) {
     #quadro {
         flex-wrap: wrap;
         justify-content: center;
     }
     .work {
-        width: calc(50% - 12px);
+        width: 80%;
     }
 }
 
